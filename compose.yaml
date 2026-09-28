@@ -1,0 +1,6 @@
+services:
+  diagnostic:
+    build: .
+    image: diagnostic-cli
+    container_name: diagnostic-cli
+    entrypoint: ["/app/diagnostic.sh"]
